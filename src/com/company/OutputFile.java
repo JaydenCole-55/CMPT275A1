@@ -14,6 +14,7 @@ public class OutputFile {
 
     // Constructor
     public OutputFile(double[] timeIntervals, double[] qVals, Path fulLFilePath) throws IOException {
+        // Creates the output file in the constructor
         try {
             // Create file and get a file writer object to it
             File log = new File(String.valueOf(fulLFilePath));
